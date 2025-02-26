@@ -1,1 +1,0 @@
-import{_ as o,c as r,r as n,o as c}from"./desktop-GGuEFPIP.js";const p={name:"procurement-workgroup"};function t(a,s,_,u,m,d){const e=n("page-crud");return c(),r(e,{"page-name":"procurement-workgroup","page-key":"workgroup"})}const f=o(p,[["render",t]]);export{f as default};

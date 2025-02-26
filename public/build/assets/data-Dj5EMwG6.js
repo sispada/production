@@ -1,1 +1,0 @@
-import{_ as n,c as e,w as t,r as s,o as a}from"./desktop-GGuEFPIP.js";const f={name:"procurement-officer-data"};function p(m,o,d,i,l,u){const r=s("form-data");return a(),e(r,null,{forminfo:t(()=>o[0]||(o[0]=[])),helpdesk:t(()=>o[1]||(o[1]=[])),utility:t(()=>o[2]||(o[2]=[])),_:1})}const c=n(f,[["render",p]]);export{c as default};

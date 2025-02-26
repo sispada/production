@@ -1,1 +1,0 @@
-import{_ as o,c as r,r as t,o as a}from"./desktop-GGuEFPIP.js";const n={name:"procurement-base"};function s(c,p,m,_,u,d){const e=t("page-base");return a(),r(e,{"module-name":"procurement","module-key":"procurement","module-type":"administrator"})}const f=o(n,[["render",s]]);export{f as default};

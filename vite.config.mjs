@@ -3,7 +3,7 @@ import Vuetify from "vite-plugin-vuetify";
 import laravel from "laravel-vite-plugin";
 import { defineConfig } from "vite";
 import { fileURLToPath, URL } from "node:url";
-// import { VitePWA } from "vite-plugin-pwa";
+import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
     css: {
@@ -16,7 +16,7 @@ export default defineConfig({
     },
     plugins: [
         laravel({
-            input: ["resources/src/desktop.js"],
+            input: ["resources/src/desktop.js", "resources/src/mobile.js"],
             refresh: true,
             detectTls: "devsiasep.test",
         }),
@@ -31,54 +31,54 @@ export default defineConfig({
         Vuetify({
             autoImport: true,
         }),
-        // VitePWA({
-        //     includeAssets: [
-        //         "assets/favicon.ico",
-        //         "assets/apple-touch-icon.png",
-        //     ],
+        VitePWA({
+            includeAssets: [
+                "assets/favicon.ico",
+                "assets/apple-touch-icon.png",
+            ],
 
-        //     devOptions: {
-        //         enabled: true,
-        //         type: "module",
-        //     },
+            devOptions: {
+                enabled: true,
+                type: "module",
+            },
 
-        //     strategies: "injectManifest",
-        //     srcDir: "./src/workers",
-        //     filename: "service-worker.js",
+            strategies: "injectManifest",
+            srcDir: "./resources/src/workers",
+            filename: "service-worker.js",
 
-        //     registerType: "autoUpdate",
+            registerType: "autoUpdate",
 
-        //     manifest: {
-        //         name: "Siasep",
-        //         short_name: "SiASEP",
-        //         description: "Sistem Terintegrasi Seputar Pengadaan",
-        //         icons: [
-        //             {
-        //                 src: "assets/pwa-512x512.png",
-        //                 sizes: "512x512",
-        //                 type: "image/png",
-        //                 purpose: "any",
-        //             },
+            manifest: {
+                name: "Siasep",
+                short_name: "SiASEP",
+                description: "Sistem Terintegrasi Seputar Pengadaan",
+                icons: [
+                    {
+                        src: "assets/pwa-512x512.png",
+                        sizes: "512x512",
+                        type: "image/png",
+                        purpose: "any",
+                    },
 
-        //             {
-        //                 src: "assets/pwa-192x192.png",
-        //                 sizes: "192x192",
-        //                 type: "image/png",
-        //                 purpose: "any",
-        //             },
-        //         ],
-        //         start_url: "/",
-        //         display: "fullscreen",
-        //         display_override: ["fullscreen", "minimal-ui"],
-        //         background_color: "#5A6062",
-        //         theme_color: "#5A6062",
-        //     },
+                    {
+                        src: "assets/pwa-192x192.png",
+                        sizes: "192x192",
+                        type: "image/png",
+                        purpose: "any",
+                    },
+                ],
+                start_url: "/",
+                display: "fullscreen",
+                display_override: ["fullscreen", "minimal-ui"],
+                background_color: "#5A6062",
+                theme_color: "#5A6062",
+            },
 
-        //     workbox: {
-        //         exclude: [/\.(?:png|php|jpg|jpeg|svg|txt|ico|html|htaccess)$/],
-        //         maximumFileSizeToCacheInBytes: 10485760,
-        //     },
-        // }),
+            workbox: {
+                exclude: [/\.(?:png|php|jpg|jpeg|svg|txt|ico|html|htaccess)$/],
+                maximumFileSizeToCacheInBytes: 10485760,
+            },
+        }),
     ],
     define: { "process.env": {} },
     resolve: {
