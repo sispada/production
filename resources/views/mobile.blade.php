@@ -52,6 +52,9 @@
     <title>SiASEP</title>
 
     @vite('resources/src/mobile.js')
+
+    <script src="/build/registerSW.js"></script>
+    <link rel="manifest" href="/build/manifest.webmanifest">
 </head>
 
 <body>

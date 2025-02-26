@@ -4,6 +4,7 @@ import laravel from "laravel-vite-plugin";
 import { defineConfig } from "vite";
 import { fileURLToPath, URL } from "node:url";
 import { VitePWA } from "vite-plugin-pwa";
+import { viteStaticCopy } from "vite-plugin-static-copy";
 
 export default defineConfig({
     css: {
@@ -30,6 +31,14 @@ export default defineConfig({
         }),
         Vuetify({
             autoImport: true,
+        }),
+        viteStaticCopy({
+            targets: [
+                {
+                    src: "public/assets/pwa-192x192.png",
+                    dest: "assets",
+                },
+            ],
         }),
         VitePWA({
             devOptions: {
