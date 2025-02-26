@@ -1,0 +1,1 @@
+import{_ as t,c as a,w as n,r,o as s}from"./desktop-GGuEFPIP.js";const p={name:"procurement-dashboard"};function c(m,e,_,d,f,u){const o=r("page-home");return s(),a(o,{"page-name":"procurement-dashboard"},{default:n(()=>e[0]||(e[0]=[])),_:1})}const l=t(p,[["render",c]]);export{l as default};
