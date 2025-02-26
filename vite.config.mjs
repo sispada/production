@@ -32,18 +32,13 @@ export default defineConfig({
             autoImport: true,
         }),
         VitePWA({
-            includeAssets: [
-                "assets/favicon.ico",
-                "assets/apple-touch-icon.png",
-            ],
-
             devOptions: {
-                enabled: true,
+                enabled: false,
                 type: "module",
             },
 
             strategies: "injectManifest",
-            srcDir: "./resources/src/workers",
+            srcDir: "resources/src/workers",
             filename: "service-worker.js",
 
             registerType: "autoUpdate",
@@ -67,7 +62,7 @@ export default defineConfig({
                         purpose: "any",
                     },
                 ],
-                start_url: "/",
+                start_url: "/build/",
                 display: "fullscreen",
                 display_override: ["fullscreen", "minimal-ui"],
                 background_color: "#5A6062",
