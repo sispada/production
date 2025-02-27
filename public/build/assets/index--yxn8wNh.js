@@ -1,0 +1,1 @@
+import{_ as o,b as r,d as t,o as n}from"./App-Dzl92QEe.js";const c={name:"procurement-history"};function s(a,p,_,m,d,i){const e=t("page-crud");return n(),r(e,{"page-name":"procurement-history","page-key":"history"})}const f=o(c,[["render",s]]);export{f as default};

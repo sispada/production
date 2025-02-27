@@ -1,1 +1,0 @@
-import{_ as r,b as a,w as t,d as s,o as e}from"./App-DX0oeBi7.js";const p={name:"procurement-biodata-data"};function d(f,o,m,i,l,u){const n=s("form-data");return e(),a(n,null,{forminfo:t(()=>o[0]||(o[0]=[])),helpdesk:t(()=>o[1]||(o[1]=[])),utility:t(()=>o[2]||(o[2]=[])),_:1})}const x=r(p,[["render",d]]);export{x as default};

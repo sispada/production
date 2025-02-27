@@ -1,0 +1,1 @@
+import{_ as r,b as e,w as t,d as s,o as a}from"./App-Dzl92QEe.js";const f={name:"procurement-officer-data"};function p(d,o,m,i,l,u){const n=s("form-data");return a(),e(n,null,{forminfo:t(()=>o[0]||(o[0]=[])),helpdesk:t(()=>o[1]||(o[1]=[])),utility:t(()=>o[2]||(o[2]=[])),_:1})}const c=r(f,[["render",p]]);export{c as default};

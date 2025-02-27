@@ -1,1 +1,0 @@
-import{_ as r,b as e,w as t,d as s,o as a}from"./App-DX0oeBi7.js";const m={name:"procurement-member-data"};function p(d,o,f,i,l,u){const n=s("form-data");return a(),e(n,null,{forminfo:t(()=>o[0]||(o[0]=[])),helpdesk:t(()=>o[1]||(o[1]=[])),utility:t(()=>o[2]||(o[2]=[])),_:1})}const x=r(m,[["render",p]]);export{x as default};
