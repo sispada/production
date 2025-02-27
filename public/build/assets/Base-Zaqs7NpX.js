@@ -1,0 +1,1 @@
+import{_ as o,b as s,d as a,o as n}from"./App-gMpX2Z32.js";const c={name:"account-base"};function t(r,_,p,u,m,d){const e=a("user-base");return n(),s(e,{"module-name":"account"})}const l=o(c,[["render",t]]);export{l as default};
