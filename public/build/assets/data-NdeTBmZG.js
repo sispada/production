@@ -1,0 +1,1 @@
+import{_ as r,b as s,w as t,d as a,o as e}from"./App-Dhfqfl2H.js";const p={name:"procurement-auction-data"};function d(f,o,m,i,l,u){const n=a("form-data");return e(),s(n,null,{forminfo:t(()=>o[0]||(o[0]=[])),helpdesk:t(()=>o[1]||(o[1]=[])),utility:t(()=>o[2]||(o[2]=[])),_:1})}const c=r(p,[["render",d]]);export{c as default};

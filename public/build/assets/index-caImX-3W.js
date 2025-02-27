@@ -1,0 +1,1 @@
+import{_ as o,b as n,d as r,o as t}from"./App-Dhfqfl2H.js";const c={name:"procurement-workunit"};function a(p,s,_,u,m,d){const e=r("page-crud");return t(),n(e,{"page-name":"procurement-workunit","page-key":"workunit"})}const f=o(c,[["render",a]]);export{f as default};
