@@ -3198,7 +3198,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/monoland/starterkit",
-                "reference": "4e49519b84c21ffeedb3eebbcf918988da15896f"
+                "reference": "dfad456f3dfe93b41dc681bbc2806d2e2dafb8d4"
             },
             "require": {
                 "jenssegers/agent": "^2.6",
