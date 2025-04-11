@@ -1,1 +1,0 @@
-import{_ as n,b as s,w as t,d as e,o as a}from"./App-dC9iqPQ-.js";const p={name:"procurement-workgroup-data"};function d(f,o,m,i,l,u){const r=e("form-data");return a(),s(r,null,{forminfo:t(()=>o[0]||(o[0]=[])),helpdesk:t(()=>o[1]||(o[1]=[])),utility:t(()=>o[2]||(o[2]=[])),_:1})}const k=n(p,[["render",d]]);export{k as default};

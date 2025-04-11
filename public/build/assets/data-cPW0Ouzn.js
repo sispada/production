@@ -1,0 +1,1 @@
+import{_ as r,b as s,w as t,d as e,o as a}from"./App-CXOOmyNz.js";const p={name:"procurement-workunit-data"};function d(f,o,m,i,l,u){const n=e("form-data");return a(),s(n,null,{forminfo:t(()=>o[0]||(o[0]=[])),helpdesk:t(()=>o[1]||(o[1]=[])),utility:t(()=>o[2]||(o[2]=[])),_:1})}const k=r(p,[["render",d]]);export{k as default};
