@@ -4,6 +4,7 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage/documents/*
 /resources/src
 /packages
 /vendor
