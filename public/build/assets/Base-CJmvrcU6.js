@@ -1,1 +1,0 @@
-import{_ as o,b as t,d as a,o as n}from"./App-CXOOmyNz.js";const r={name:"procurement-base"};function s(c,p,m,_,u,d){const e=a("page-base");return n(),t(e,{"module-name":"procurement","module-key":"procurement","module-type":"administrator"})}const f=o(r,[["render",s]]);export{f as default};
