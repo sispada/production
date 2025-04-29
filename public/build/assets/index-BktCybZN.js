@@ -1,0 +1,1 @@
+import{_ as o,b as r,d as n,o as p}from"./App-DRpJN8O_.js";const c={name:"procurement-workgroup"};function t(a,s,_,u,m,d){const e=n("page-crud");return p(),r(e,{"page-name":"procurement-workgroup","page-key":"workgroup"})}const f=o(c,[["render",t]]);export{f as default};
