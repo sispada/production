@@ -1,1 +1,0 @@
-import{_ as r,b as e,w as t,d as s,o as a}from"./App-DRpJN8O_.js";const p={name:"procurement-document-data"};function d(m,o,f,i,l,u){const n=s("form-data");return a(),e(n,null,{forminfo:t(()=>o[0]||(o[0]=[])),helpdesk:t(()=>o[1]||(o[1]=[])),utility:t(()=>o[2]||(o[2]=[])),_:1})}const c=r(p,[["render",d]]);export{c as default};
