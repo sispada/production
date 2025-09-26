@@ -1,0 +1,9 @@
+[submodule "modules/system"]
+	path = modules/system
+	url = https://github.com/sispada/mod-system.git
+[submodule "modules/procurement"]
+	path = modules/procurement
+	url = https://github.com/sispada/mod-procurement.git
+[submodule "modules/myprocurement"]
+	path = modules/myprocurement
+	url = https://github.com/sispada/mod-myprocurement.git
