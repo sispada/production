@@ -13,5 +13,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(\ModuleSystem\Seeders\DatabaseSeeder::class);
         $this->call(\ModuleProcurement\Seeders\DatabaseSeeder::class);
+        $this->call(\ModuleMyProcurement\Seeders\DatabaseSeeder::class);
     }
 }
