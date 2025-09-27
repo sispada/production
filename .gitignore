@@ -5,6 +5,7 @@
 /storage/*.key
 /storage/pail
 /storage/documents/*
+/storage/uploads/*
 /resources/src
 /packages
 /vendor

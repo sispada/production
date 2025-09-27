@@ -38,9 +38,9 @@ return [
             'report' => false,
         ],
 
-        'document' => [
+        'uploads' => [
             'driver' => 'local',
-            'root' => storage_path('documents'),
+            'root' => storage_path('uploads'),
             'serve' => true,
             'throw' => false,
             'report' => false,
