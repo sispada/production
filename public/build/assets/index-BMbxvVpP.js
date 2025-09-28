@@ -1,0 +1,1 @@
+import{_ as o}from"./App-BA-W7xWz.js";import{R as a,Q as t,S as r}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const n={name:"procurement-biodata"};function c(p,s,m,_,d,i){const e=t("page-crud");return r(),a(e,{"page-name":"procurement-biodata","page-key":"biodata"})}const l=o(n,[["render",c]]);export{l as default};

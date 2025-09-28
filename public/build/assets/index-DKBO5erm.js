@@ -1,1 +1,0 @@
-import{_ as e}from"./App-D2icd3t-.js";import{R as r,Q as p,S as n}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const t={name:"procurement-workgroup"};function c(a,s,m,_,u,d){const o=p("page-crud");return n(),r(o,{"page-name":"procurement-workgroup","page-key":"workgroup"})}const k=e(t,[["render",c]]);export{k as default};

@@ -1,0 +1,1 @@
+import{_ as n}from"./App-BA-W7xWz.js";import{R as t,Q as e,S as c}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const a={name:"account-notification"};function r(i,p,s,_,f,m){const o=e("page-crud");return c(),t(o,{"page-name":"account-notification","page-key":"notification"})}const l=n(a,[["render",r]]);export{l as default};

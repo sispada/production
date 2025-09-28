@@ -1,0 +1,1 @@
+import{_ as o}from"./App-BA-W7xWz.js";import{R as r,Q as t,S as a}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const n={name:"procurement-base"};function s(p,c,m,_,u,d){const e=t("page-base");return a(),r(e,{"module-name":"procurement","module-key":"procurement","module-type":"administrator"})}const $=o(n,[["render",s]]);export{$ as default};

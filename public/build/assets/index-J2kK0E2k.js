@@ -1,1 +1,0 @@
-import{_ as o}from"./App-D2icd3t-.js";import{R as t,Q as r,S as n}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const c={name:"procurement-method"};function p(a,m,s,_,d,u){const e=r("page-crud");return n(),t(e,{"page-name":"procurement-method","page-key":"method"})}const h=o(c,[["render",p]]);export{h as default};

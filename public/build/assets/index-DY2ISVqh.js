@@ -1,0 +1,1 @@
+import{_ as s}from"./App-BA-W7xWz.js";import{R as o,Q as n,S as p}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const r={name:"system-permission"};function t(a,m,c,i,_,d){const e=n("page-crud");return p(),o(e,{"page-name":"system-permission","page-key":"permission","parent-name":"system-page","parent-key":"page"})}const y=s(r,[["render",t]]);export{y as default};
