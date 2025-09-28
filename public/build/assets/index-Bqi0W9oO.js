@@ -1,0 +1,1 @@
+import{_ as e}from"./App-C2OvIBu-.js";import{R as o,Q as c,S as a}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const n={name:"account-activity"};function r(p,s,i,_,m,u){const t=c("page-crud");return a(),o(t,{"page-name":"account-activity","page-key":"activity"})}const l=e(n,[["render",r]]);export{l as default};

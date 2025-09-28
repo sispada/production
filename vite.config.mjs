@@ -10,7 +10,7 @@ export default defineConfig({
     css: {
         preprocessorOptions: {
             scss: {
-                api: "modern", // or "modern"
+                api: "modern",
                 silenceDeprecations: ["legacy-js-api"],
             },
         },
@@ -45,13 +45,10 @@ export default defineConfig({
                 enabled: false,
                 type: "module",
             },
-
             strategies: "injectManifest",
             srcDir: "resources/src/workers",
             filename: "service-worker.js",
-
             registerType: "autoUpdate",
-
             manifest: {
                 name: "Siasep",
                 short_name: "SiASEP",
@@ -63,7 +60,6 @@ export default defineConfig({
                         type: "image/png",
                         purpose: "any",
                     },
-
                     {
                         src: "assets/pwa-192x192.png",
                         sizes: "192x192",
@@ -77,10 +73,9 @@ export default defineConfig({
                 background_color: "#5A6062",
                 theme_color: "#5A6062",
             },
-
             workbox: {
                 exclude: [/\.(?:png|php|jpg|jpeg|svg|txt|ico|html|htaccess)$/],
-                maximumFileSizeToCacheInBytes: 10485760,
+                maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
             },
         }),
     ],
@@ -102,5 +97,17 @@ export default defineConfig({
             ),
         },
         extensions: [".js", ".json", ".jsx", ".mjs", ".ts", ".tsx", ".vue"],
+    },
+    build: {
+        chunkSizeWarningLimit: 2000, // naikkan limit warning
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    vue: ["vue", "vue-router", "pinia"],
+                    vuetify: ["vuetify"],
+                    pdfjs: ["pdfjs-dist"],
+                },
+            },
+        },
     },
 });
