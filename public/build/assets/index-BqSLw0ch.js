@@ -1,1 +1,0 @@
-import{_ as o}from"./App-C2OvIBu-.js";import{R as s,Q as r,S as t}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const n={name:"system-user"};function a(c,p,m,_,u,d){const e=r("page-crud");return t(),s(e,{"page-name":"system-user","page-key":"user"})}const l=o(n,[["render",a]]);export{l as default};

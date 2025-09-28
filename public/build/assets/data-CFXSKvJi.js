@@ -1,0 +1,1 @@
+import{_ as e}from"./App-D2icd3t-.js";import{R as n,U as t,Q as s,S as a}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const f={name:"system-role-crete"};function m(p,o,i,d,l,_){const r=s("form-data");return a(),n(r,null,{feed:t(()=>o[0]||(o[0]=[])),info:t(()=>o[1]||(o[1]=[])),filter:t(()=>o[2]||(o[2]=[])),_:1})}const c=e(f,[["render",m]]);export{c as default};

@@ -1,1 +1,0 @@
-import{_ as t}from"./App-C2OvIBu-.js";import{R as n,Q as s,S as a}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const o={name:"system-license"};function r(c,p,i,m,_,l){const e=s("page-crud");return a(),n(e,{"page-name":"system-license","page-key":"license","parent-name":"system-ability","parent-key":"ability"})}const u=t(o,[["render",r]]);export{u as default};

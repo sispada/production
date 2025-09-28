@@ -1,1 +1,0 @@
-import{_ as o}from"./App-C2OvIBu-.js";import{R as r,Q as t,S as s}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const n={name:"system-role"};function a(c,p,m,_,d,f){const e=t("page-crud");return s(),r(e,{"page-name":"system-role","page-key":"role"})}const g=o(n,[["render",a]]);export{g as default};

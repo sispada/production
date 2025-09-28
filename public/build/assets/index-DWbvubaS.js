@@ -1,1 +1,0 @@
-import{_ as o}from"./App-C2OvIBu-.js";import{R as t,Q as n,S as r}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const s={name:"system-report"};function a(p,c,m,_,f,i){const e=n("page-blank");return r(),t(e,{"page-name":"system-report"})}const u=o(s,[["render",a]]);export{u as default};
