@@ -7,3 +7,6 @@
 [submodule "modules/myprocurement"]
 	path = modules/myprocurement
 	url = https://github.com/sispada/mod-myprocurement.git
+[submodule "packages/monoland/starterkit"]
+	path = packages/monoland/starterkit
+	url = https://github.com/sispada/starterkit.git
