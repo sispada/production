@@ -7,7 +7,6 @@
 /storage/documents/*
 /storage/uploads/*
 /resources/src
-/packages
 /vendor
 .env
 .env.backup
