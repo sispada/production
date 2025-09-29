@@ -1,0 +1,1 @@
+import{_ as t}from"./App-D5mGj0zK.js";import{R as r,Q as o,S as a}from"./vue-C3IWtw_4.js";import"./vuetify-K2B9Zd4c.js";const p={name:"system-thirdparty"};function s(n,c,m,_,d,i){const e=o("page-crud");return a(),r(e,{"page-name":"system-thirdparty","page-key":"thirdparty"})}const g=t(p,[["render",s]]);export{g as default};

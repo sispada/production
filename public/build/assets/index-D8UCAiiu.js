@@ -1,1 +1,0 @@
-import{_ as t}from"./App-BA-W7xWz.js";import{R as r,U as a,Q as n,S as s}from"./vue-C3IWtw_4.js";import"./vuetify-lTcKoUmz.js";const p={name:"myprocurement-dashboard"};function m(c,e,_,d,f,i){const o=n("page-home");return s(),r(o,{"page-name":"myprocurement-dashboard"},{default:a(()=>e[0]||(e[0]=[])),_:1})}const h=t(p,[["render",m]]);export{h as default};

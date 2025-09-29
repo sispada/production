@@ -1,0 +1,1 @@
+import{_ as o}from"./App-D5mGj0zK.js";import{R as r,Q as n,S as t}from"./vue-C3IWtw_4.js";import"./vuetify-K2B9Zd4c.js";const c={name:"procurement-workunit"};function p(a,s,m,_,u,i){const e=n("page-crud");return t(),r(e,{"page-name":"procurement-workunit","page-key":"workunit"})}const g=o(c,[["render",p]]);export{g as default};

@@ -1,0 +1,1 @@
+import{_ as r}from"./App-D5mGj0zK.js";import{R as t,U as n,Q as p,S as a}from"./vue-C3IWtw_4.js";import"./vuetify-K2B9Zd4c.js";const s={name:"myprocurement-report"};function m(c,e,_,f,i,l){const o=p("page-blank");return a(),t(o,{"page-name":"myprocurement-report","page-key":"report"},{default:n(()=>e[0]||(e[0]=[])),_:1})}const x=r(s,[["render",m]]);export{x as default};
