@@ -1,1 +1,0 @@
-import{_ as o}from"./App-D5mGj0zK.js";import{R as r,U as s,Q as n,S as a}from"./vue-C3IWtw_4.js";import"./vuetify-K2B9Zd4c.js";const c={name:"system-user-create"};function m(p,e,_,f,i,l){const t=n("form-create");return a(),r(t,null,{default:s(()=>e[0]||(e[0]=[])),_:1})}const $=o(c,[["render",m]]);export{$ as default};

@@ -1,1 +1,0 @@
-import{_ as o}from"./App-D5mGj0zK.js";import{R as s,Q as t,S as a}from"./vue-C3IWtw_4.js";import"./vuetify-K2B9Zd4c.js";const n={name:"account-base"};function c(r,p,_,m,u,f){const e=t("user-base");return a(),s(e,{"module-name":"account"})}const $=o(n,[["render",c]]);export{$ as default};

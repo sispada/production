@@ -1,1 +1,0 @@
-import{_ as a}from"./App-D5mGj0zK.js";import{R as t,Q as o,S as n}from"./vue-C3IWtw_4.js";import"./vuetify-K2B9Zd4c.js";const p={name:"system-abilitypage"};function s(r,i,c,m,_,y){const e=o("page-crud");return n(),t(e,{"page-name":"system-abilitypage","page-key":"abilitypage","parent-name":"system-ability","parent-key":"ability"})}const g=a(p,[["render",s]]);export{g as default};
