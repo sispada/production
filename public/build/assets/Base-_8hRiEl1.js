@@ -1,0 +1,1 @@
+import{_ as o}from"./App-BXm1iMt2.js";import{R as s,Q as t,S as a}from"./vue-C3IWtw_4.js";import"./vuetify-K2B9Zd4c.js";const n={name:"system-base"};function r(m,p,c,_,d,i){const e=t("page-base");return a(),s(e,{"module-name":"system","module-key":"system","module-type":"administrator"})}const y=o(n,[["render",r]]);export{y as default};

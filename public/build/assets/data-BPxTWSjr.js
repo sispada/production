@@ -1,1 +1,0 @@
-import{_ as t}from"./App-DnZ3KNkk.js";import{R as a,Q as n,S as e}from"./vue-C3IWtw_4.js";import"./vuetify-K2B9Zd4c.js";const r={name:"account-notification-data"};function c(s,p,_,m,f,i){const o=n("form-data");return e(),a(o)}const $=t(r,[["render",c]]);export{$ as default};
